@@ -12,7 +12,7 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
 
-    <body id="page-top">
+    <body id="body_index">
         <!-- Navigation-->
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
@@ -22,38 +22,48 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarOptions">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="views/agendar_cita.html">Agendar Cita</a>
-                        <a class="nav-link" href="views/nosotros.html">Nosotros</a>
-                        <a class="nav-link" href="views/servicios.html">Servicios</a>
-                        <a class="nav-link" href="views/ubicacion.html">Ubicación</a>
+                        <a class="nav-link mr-2" href="views/agendar_cita.html">Agendar Cita</a>
+                        <a class="nav-link mr-2" href="views/nosotros.html">Nosotros</a>
+                        <a class="nav-link mr-2" href="views/servicios.html">Servicios</a>
+                        <a class="nav-link mr-2" href="views/ubicacion.html">Contacto</a>
                     </div>
                 </div>
             </div>
         </nav>
-        <div id="carouselIndex" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselIndex" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselIndex" data-slide-to="1"></li>
-            </ol>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/C2.png" alt="Akitzu img 1">
+                <img src="assets/img/C2.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/C1.png" alt="Akitzu img 2">
+                <img src="assets/img/C3.png"" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/C1.png" class="d-block w-100" alt="...">
               </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
         </div><br><br>
+        
         <!-- Content section 1-->
         <section>
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-md-6 col-xs-12 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/gafas/_7888.jpeg" alt="..." /></div>
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/gafas/_02.jpeg" alt="..." /></div>
                     </div>
                     <div class="col-md-6 col-xs-12 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">Gafas Formuladas</h2>
+                            <h1>Gafas Formuladas</h1>
                             <br><p>Los lentes formulados están diseñados para cubrir las necesidades de pacientes con diagnósticos como miopía, hipermetropía, astigmatismo y presbicia. De igual forma sucede con los lentes de contacto.</p>
                         </div>
                     </div>
@@ -65,11 +75,11 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-md-6 col-xs-12">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/gafas/_7871.jpeg" alt="..." /></div>
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/gafas/_10.png" alt="..." /></div>
                     </div>
                     <div class="col-md-6 col-xs-12">
                         <div class="p-5">
-                            <h2 class="display-4">Gafas de sol</h2>
+                            <h1>Gafas de sol</h1>
                             <br><p>Las gafas de sol poseen lentes oscurecidos o coloreados que son un instrumento óptico de protección ocular, su función es proteger los ojos de las radiaciones nocivas del sol y de posibles inconvenientes como el polvo, el viento, o la luz directa y molesta.</p>
                         </div>
                     </div>
@@ -81,24 +91,29 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-md-6 col-xs-12 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/gafas/_7886.jpeg" alt="..." /></div>
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/gafas/_09.jpeg" alt="..." /></div>
                     </div>
                     <div class="col-md-6 col-xs-12 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">Lentes de Contacto</h2>
+                            <h1>Lentes de Contacto</h1>
                             <br><p>Los lentes de contacto ademas de ofrecer flexibilidad, comodidad y una imagen mas estética, ayudan a corregir diversos trastornos de la visión como lo son la miopía, el astigmatismo entre otros.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <div style="position: absolute;bottom: 10px;right: 10px;">
+            <a href="https://wa.link/2or3uc" class="btn-wsp" target="_blank">
+                <img src="assets/img/whatsapp_icon.png" alt="Akitzu" style="max-width: 80px;">
+            </a>
+        </div>
         <!-- Footer-->
-        <footer class="py-3 my-4">
+        <footer class="py-3 my-4 s">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a href="views/agendar_cita.html" class="nav-link px-2 text-muted">Agendar Cita</a></li>
                 <li class="nav-item"><a href="views/nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
                 <li class="nav-item"><a href="views/servicios.html" class="nav-link px-2 text-muted">Servicios</a></li>
-                <li class="nav-item"><a href="views/ubicacion.html" class="nav-link px-2 text-muted">Ubicación</a></li>
+                <li class="nav-item"><a href="views/ubicacion.html" class="nav-link px-2 text-muted">Contacto</a></li>
             </ul>
             <p class="text-center text-muted">© 2023 Akitzu</p>
         </footer>
